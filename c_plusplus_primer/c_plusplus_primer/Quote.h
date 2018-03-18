@@ -1,10 +1,9 @@
 #pragma once
-#include <string>
-#include <set>
-#include <iostream>
-#include <fstream>
-#include <sstream>
 #include <memory>
+#include <iostream>
+#include <string>
+#include <cstddef>
+#include <utility>
 
 class Quote {
 public:
@@ -17,4 +16,13 @@ private:
 	std::string bookNo;
 protected:
 	double price = 0.0;
+};
+class Bulk_quote : public Quote {
+public:
+	Bulk_quote() = default;
+	Bulk_quote(const std::string&, double, std::size_t, double);
+	double net_price(std::size_t) const override;
+private:
+	std::size_t min_qty = 0;
+	double discount = 0.0;
 };
