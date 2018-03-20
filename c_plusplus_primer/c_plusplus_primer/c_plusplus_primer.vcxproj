@@ -111,13 +111,22 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="andQueryTest.cpp" />
     <ClCompile Include="Basket.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="make_plural.cpp" />
+    <ClCompile Include="Query.cpp" />
+    <ClCompile Include="QueryHelper.cpp" />
     <ClCompile Include="Quote.cpp" />
+    <ClCompile Include="TextQuery.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Basket.h" />
+    <ClInclude Include="make_plural.h" />
+    <ClInclude Include="Query.h" />
+    <ClInclude Include="QueryResult.h" />
     <ClInclude Include="Quote.h" />
+    <ClInclude Include="TextQuery.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

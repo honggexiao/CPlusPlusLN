@@ -3,8 +3,7 @@ using std::shared_ptr; using std::make_shared;
 #include "Basket.h"
 #include <iostream>
 using std::cout; using std::endl;
-
-int main()
+void QuteTest()
 {
 	Basket sale;
 	sale.add_item(shared_ptr<Quote>(new Quote("123", 45)));
@@ -44,5 +43,4 @@ int main()
 	bsk.add_item(shared_ptr<Quote>(new Bulk_quote("0-201-82470-1", 50, 5, .19)));
 	bsk.add_item(shared_ptr<Quote>(new Bulk_quote("0-201-82470-1", 50, 5, .19)));
 	bsk.total_receipt(cout);
-	system("pause");
 }
