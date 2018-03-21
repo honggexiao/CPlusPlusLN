@@ -10,7 +10,7 @@ using std::cout; using std::endl;
 #include <set>
 using std::set;
 
-int main(int argc, char **argv)
+int query_main(int argc, char **argv)
 {
 	// gets file to read and builds map to support queries
 	TextQuery file = get_file(argc, argv);
