@@ -113,6 +113,7 @@
   <ItemGroup>
     <ClCompile Include="andQueryTest.cpp" />
     <ClCompile Include="Basket.cpp" />
+    <ClCompile Include="BlobMain.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="make_plural.cpp" />
     <ClCompile Include="Query.cpp" />
@@ -122,6 +123,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Basket.h" />
+    <ClInclude Include="Blob.h" />
     <ClInclude Include="make_plural.h" />
     <ClInclude Include="Query.h" />
     <ClInclude Include="QueryResult.h" />

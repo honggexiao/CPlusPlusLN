@@ -39,6 +39,9 @@
     <ClCompile Include="QueryHelper.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="BlobMain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Quote.h">
@@ -57,6 +60,9 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Query.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Blob.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
